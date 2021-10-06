@@ -17,7 +17,8 @@ Plug 'morhetz/gruvbox'
 
 Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
 
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
@@ -26,5 +27,7 @@ Plug 'AndrewRadev/tagalong.vim'
 Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'https://github.com/alok/notational-fzf-vim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 " Initialize plugin system
 call plug#end()

@@ -1,3 +1,8 @@
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+set keymap=russian-jcukenwin
+set iminsert=0
+set imsearch=0
+highlight lCursor guifg=NONE guibg=Cyan
 inoremap jk <ESC>
 " open NERDTree automaticaly
 "autocmd StdinReadPre * let s:std_in=1
@@ -28,6 +33,7 @@ nmap __ :Files<cr>
 nmap <C-s> :w<cr>
 nmap = :+
 nmap - :-
+nmap Ж :
 colorscheme gruvbox
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
-
+let g:nv_search_paths = ['~/develop/box']
