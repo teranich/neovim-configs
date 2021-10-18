@@ -10,30 +10,27 @@ inoremap jk <ESC>
 
 let g:NERDTreeGitStatusWithFlags = 1
 "let g:WebDevIconsUnicodeDecorateFolderNodes = 1
-"let g:NERDTreeGitStatusNodeColorization = 1
-"let g:NERDTreeColorMapCustom = {
-    "\ "Staged"    : "#0ee375",  
-    "\ "Modified"  : "#d9bf91",  
-    "\ "Renamed"   : "#51C9FC",  
-    "\ "Untracked" : "#FCE77C",  
-    "\ "Unmerged"  : "#FC51E6",  
-    "\ "Dirty"     : "#FFBD61",  
-    "\ "Clean"     : "#87939A",   
-    "\ "Ignored"   : "#808080"   
-    "\ }                         
-
-
-let g:NERDTreeIgnore = ['^node_modules$']
 
 " vim-prettier
 "let g:prettier#quickfix_enabled = 0
 "let g:prettier#quickfix_auto_focus = 0
 nmap ++ :GFiles<cr>
 nmap __ :Files<cr>
+nmap \\ :Prettier<cr>
+nmap '' :Explore<cr>
 nmap <C-s> :w<cr>
+inoremap <C-s> <C-o>:w<CR>
 nmap = :+
 nmap - :-
 nmap Ж :
 colorscheme gruvbox
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 let g:nv_search_paths = ['~/develop/box']
+set mouse=nv
+
+
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+"let g:netrw_browse_split = 4
+let g:netrw_altv = 1
+let g:netrw_winsize = 25
