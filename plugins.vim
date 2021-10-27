@@ -29,6 +29,8 @@ Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'https://github.com/alok/notational-fzf-vim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+Plug 'mileszs/ack.vim'
+Plug 'preservim/tagbar'
 " Initialize plugin system
 call plug#end()
 

@@ -13,13 +13,14 @@ let g:NERDTreeGitStatusWithFlags = 1
 
 " vim-prettier
 "let g:prettier#quickfix_enabled = 0
-"let g:prettier#quickfix_auto_focus = 0
+"let g:prettiersdsd#quickfix_auto_focus = 0
 nmap ++ :GFiles<cr>
 nmap __ :Files<cr>
 nmap \\ :Prettier<cr>
 nmap '' :Explore<cr>
 nmap <C-s> :w<cr>
 inoremap <C-s> <C-o>:w<CR>
+inoremap jj <ESC>
 nmap = :+
 nmap - :-
 nmap Ж :
@@ -27,7 +28,7 @@ colorscheme gruvbox
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 let g:nv_search_paths = ['~/develop/box']
 set mouse=nv
-
+set colorcolumn=79
 
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
