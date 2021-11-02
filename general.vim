@@ -16,7 +16,7 @@ let g:NERDTreeGitStatusWithFlags = 1
 "let g:prettiersdsd#quickfix_auto_focus = 0
 nmap ++ :GFiles<cr>
 nmap __ :Files<cr>
-nmap \\ :Prettier<cr>
+" nmap \\ :Prettier<cr>
 nmap '' :Explore<cr>
 nmap <C-s> :w<cr>
 inoremap <C-s> <C-o>:w<CR>

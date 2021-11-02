@@ -5,4 +5,5 @@ source $HOME/.config/nvim/plugins/coc.vim
 source $HOME/.config/nvim/plugins/commentary.vim
 source $HOME/.config/nvim/plugins/ack.vim
 source $HOME/.config/nvim/plugins/tagbar.vim
+source $HOME/.config/nvim/plugins/telescope.vim
 
