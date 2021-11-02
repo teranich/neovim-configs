@@ -3,7 +3,6 @@ set keymap=russian-jcukenwin
 set iminsert=0
 set imsearch=0
 highlight lCursor guifg=NONE guibg=Cyan
-inoremap jk <ESC>
 " open NERDTree automaticaly
 "autocmd StdinReadPre * let s:std_in=1
 "autocmd VimEnter * NERDTree
