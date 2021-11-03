@@ -13,8 +13,6 @@ let g:NERDTreeGitStatusWithFlags = 1
 " vim-prettier
 "let g:prettier#quickfix_enabled = 0
 "let g:prettiersdsd#quickfix_auto_focus = 0
-nmap ++ :GFiles<cr>
-nmap __ :Files<cr>
 " nmap \\ :Prettier<cr>
 nmap '' :Explore<cr>
 nmap <C-s> :w<cr>
@@ -26,6 +24,8 @@ nmap Ж :
 colorscheme gruvbox
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 let g:nv_search_paths = ['~/develop/box']
+
+" Tree Navigator
 set mouse=nv
 set colorcolumn=79
 let g:netrw_banner = 0
@@ -33,3 +33,7 @@ let g:netrw_liststyle = 3
 "let g:netrw_browse_split = 4
 let g:netrw_altv = 1
 let g:netrw_winsize = 25
+
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+set undodir=~/.vim/undo//
