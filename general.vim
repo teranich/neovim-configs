@@ -16,6 +16,7 @@ let g:NERDTreeGitStatusWithFlags = 1
 " nmap \\ :Prettier<cr>
 nmap '' :Explore<cr>
 nmap <C-s> :w<cr>
+noremap <Leader>p :Prettier<cr>
 inoremap <C-s> <C-o>:w<CR>
 inoremap jj <ESC>
 nmap = :+
