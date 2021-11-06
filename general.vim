@@ -3,18 +3,6 @@ set keymap=russian-jcukenwin
 set iminsert=0
 set imsearch=0
 highlight lCursor guifg=NONE guibg=Cyan
-" open NERDTree automaticaly
-"autocmd StdinReadPre * let s:std_in=1
-"autocmd VimEnter * NERDTree
-
-let g:NERDTreeGitStatusWithFlags = 1
-"let g:WebDevIconsUnicodeDecorateFolderNodes = 1
-
-" vim-prettier
-"let g:prettier#quickfix_enabled = 0
-"let g:prettiersdsd#quickfix_auto_focus = 0
-" nmap \\ :Prettier<cr>
-nmap '' :Explore<cr>
 nmap <C-s> :w<cr>
 noremap <Leader>p :Prettier<cr>
 inoremap <C-s> <C-o>:w<CR>
@@ -25,6 +13,9 @@ nmap Ж :
 colorscheme gruvbox
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 let g:nv_search_paths = ['~/develop/box']
+
+set number relativenumber
+set nu rnu
 
 " Tree Navigator
 set mouse=nv
