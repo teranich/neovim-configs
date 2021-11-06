@@ -21,7 +21,7 @@ Plug 'ThePrimeagen/harpoon'
 Plug 'djoshea/vim-autoread'
 Plug 'mattn/emmet-vim'
 Plug 'terryma/vim-multiple-cursors'
-
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 " Initialize plugin system
 call plug#end()
 
