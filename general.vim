@@ -14,8 +14,10 @@ colorscheme gruvbox
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 let g:nv_search_paths = ['~/develop/box']
 
+" Columns
 set number relativenumber
 set nu rnu
+set signcolumn=auto:2-5
 
 " Tree Navigator
 set mouse=nv
