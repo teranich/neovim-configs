@@ -4,7 +4,7 @@ set iminsert=0
 set imsearch=0
 highlight lCursor guifg=NONE guibg=Cyan
 nmap <C-s> :w<cr>
-noremap <Leader>p :Prettier<cr>
+" noremap <Leader>p :Prettier<cr>
 inoremap <C-s> <C-o>:w<CR>
 inoremap jj <ESC>
 nmap = :+
@@ -20,6 +20,7 @@ set nu rnu
 set signcolumn=auto:2-5
 
 " Tree Navigator
+noremap <Leader>e :Explor<cr>
 set mouse=nv
 set colorcolumn=79
 let g:netrw_banner = 0
