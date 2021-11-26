@@ -33,3 +33,5 @@ set noswapfile
 "set backupdir=~/.vim/backup//
 "set directory=~/.vim/swap//
 "set undodir=~/.vim/undo//
+" tabs idents
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
