@@ -35,3 +35,10 @@ set noswapfile
 "set undodir=~/.vim/undo//
 " tabs idents
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+"
+"Code folding
+nmap ,f :set foldmethod=syntax<CR>
+set foldmethod=syntax
+set foldnestmax=10
+" set nofoldenable
+set foldlevel=1
