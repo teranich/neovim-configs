@@ -23,12 +23,17 @@ Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+"Test
 Plug 'vim-test/vim-test'
 "GIT
-Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-fugitve'
 Plug 'junegunn/gv.vim'
-Plug 'airblade/vim-gutter'
+Plug 'airblade/vim-gitgutter'
 Plug 'mhinz/vim-signify', { 'branch': 'legacy' } "git changes hightlighing
+" Session
+Plug 'https://github.com/skanehira/vsession'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 " Initialize plugin system
 call plug#end()
 

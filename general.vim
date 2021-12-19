@@ -22,7 +22,7 @@ set signcolumn=auto:2-5
 " Tree Navigator
 noremap <Leader>e :Explor<cr>
 set mouse=nv
-set colorcolumn=79
+set colorcolumn=100
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 "let g:netrw_browse_split = 4

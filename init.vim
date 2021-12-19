@@ -6,3 +6,4 @@ source $HOME/.config/nvim/telescope.vim
 source $HOME/.config/nvim/harpoon.nvim
 source $HOME/.config/nvim/vim-test.vim
 source $HOME/.config/nvim/general.vim
+source $HOME/.config/nvim/vsession.vim
